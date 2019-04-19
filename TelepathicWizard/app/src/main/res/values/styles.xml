@@ -9,7 +9,7 @@
     </style>
 
     <style name="TextDesign" parent="@android:style/TextAppearance">
-        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:fontFamily">@font/automatica</item>
         <item name="android:textColor">@color/contrastLight</item>
         <item name="android:gravity">center</item>
     </style>
@@ -17,7 +17,7 @@
     <style name="ButtonDesign" parent="Base.Widget.AppCompat.Button">
         <item name="android:background">@drawable/button_selector</item>
         <item name="android:textColor">@color/contrastLight</item>
-        <item name="android:fontFamily">sans-serif</item>
-        <item name="android:textSize">26sp</item>
+        <item name="android:fontFamily">@font/automatica</item>
+        <item name="android:textSize">20sp</item>
     </style>
 </resources>

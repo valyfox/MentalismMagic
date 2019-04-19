@@ -9,5 +9,5 @@
         android:background="@drawable/border"
         android:id="@+id/tv_item_pack"
         style="@style/TextDesign"
-        android:textSize="42sp"/>
+        android:textSize="20sp"/>
 </FrameLayout>

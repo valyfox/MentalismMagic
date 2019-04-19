@@ -17,7 +17,7 @@
             android:layout_height="match_parent"
             android:id="@+id/trick_1"
             android:text="@string/app_title"
-            android:textSize="30sp"
+            android:textSize="20sp"
             style="@style/TextDesign"
             android:paddingStart="16dp"
             android:paddingEnd="16dp"
@@ -27,7 +27,7 @@
             android:layout_height="match_parent"
             android:id="@+id/trick_2"
             android:text="@string/app_title"
-            android:textSize="30sp"
+            android:textSize="20sp"
             style="@style/TextDesign"
             android:paddingStart="16dp"
             android:paddingEnd="16dp"
@@ -46,7 +46,7 @@
             android:layout_height="match_parent"
             android:id="@+id/trick_3"
             android:text="@string/app_title"
-            android:textSize="30sp"
+            android:textSize="20sp"
             style="@style/TextDesign"
             android:paddingStart="16dp"
             android:paddingEnd="16dp"
@@ -56,7 +56,7 @@
             android:layout_height="match_parent"
             android:id="@+id/trick_4"
             android:text="@string/app_title"
-            android:textSize="30sp"
+            android:textSize="20sp"
             style="@style/TextDesign"
             android:paddingStart="16dp"
             android:paddingEnd="16dp"
@@ -74,7 +74,7 @@
             android:layout_height="match_parent"
             android:id="@+id/trick_5"
             android:text="@string/app_title"
-            android:textSize="30sp"
+            android:textSize="20sp"
             style="@style/TextDesign"
             android:paddingStart="16dp"
             android:paddingEnd="16dp"
@@ -83,7 +83,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/trick_6"
-            android:textSize="30sp"
+            android:textSize="20sp"
             android:text="@string/app_title"
             style="@style/TextDesign"
             android:paddingStart="16dp"
@@ -102,7 +102,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/trick_7"
-            android:textSize="30sp"
+            android:textSize="20sp"
             style="@style/TextDesign"
             android:text="@string/app_title"
             android:paddingStart="16dp"
@@ -112,7 +112,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/trick_8"
-            android:textSize="30sp"
+            android:textSize="20sp"
             style="@style/TextDesign"
             android:text="@string/app_title"
             android:paddingStart="16dp"
@@ -130,7 +130,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/trick_9"
-            android:textSize="30sp"
+            android:textSize="20sp"
             style="@style/TextDesign"
             android:text="@string/app_title"
             android:paddingStart="16dp"
@@ -140,7 +140,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/trick_10"
-            android:textSize="30sp"
+            android:textSize="20sp"
             style="@style/TextDesign"
             android:text="@string/app_title"
             android:paddingStart="16dp"
@@ -153,7 +153,9 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1">
+        android:layout_weight="1"
+        android:background="@drawable/button_selector"
+        >
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -162,7 +164,7 @@
         android:layout_gravity="center"
         style="@style/ButtonDesign"
         android:text="@string/shuffle"
-        android:textSize="42sp"/>
+        android:textSize="25sp"/>
 
         <Button
             android:layout_width="match_parent"
@@ -172,7 +174,7 @@
             android:layout_gravity="center"
             style="@style/ButtonDesign"
             android:text="@string/end_trick"
-            android:textSize="42sp"/>
+            android:textSize="25sp"/>
 
     </LinearLayout>
 

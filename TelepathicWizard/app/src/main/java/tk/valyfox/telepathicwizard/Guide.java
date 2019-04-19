@@ -46,7 +46,7 @@ public class Guide extends AppCompatActivity {
             public View makeView() {
                 TextView t = new TextView(getApplicationContext());
                 t.setGravity(Gravity.CENTER);
-                t.setTextSize(36);
+                t.setTextSize(20);
                 t.setTextColor(getResources().getColor(R.color.contrastLight));
                 return t;
             }

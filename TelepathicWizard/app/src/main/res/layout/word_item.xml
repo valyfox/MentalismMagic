@@ -8,5 +8,5 @@
         android:layout_height="wrap_content"
         android:id="@+id/tv_item_word"
         style="@style/TextDesign"
-        android:textSize="42sp"/>
+        android:textSize="25sp"/>
 </FrameLayout>
