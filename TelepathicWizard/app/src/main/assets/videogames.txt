@@ -1,0 +1,62 @@
+#Videogames
+#pack_videogames
+Soulcalibur
+Mass Effect
+Call of Duty
+Batman: Arkham City
+The Witness
+Journey
+Uncharted
+SimCity
+Overwatch
+Deus Ex
+Baldur's Gate
+Pac-Man
+Counter-Strike
+Persona 4: Golden
+EarthBound
+Resident Evil
+Diablo
+StarCraft
+World of Warcraft
+Star Wars
+Pokémon Go
+Mega Man
+Contra
+Pokémon Yellow
+The Legend of Zelda
+Bloodborne
+Metroid Prime
+Resident Evil
+The Witcher 3
+Metal Gear Solid
+Skyrim
+Shadow of the Colossus
+BioShock
+Monkey Island
+Sid Meier's Civilization IV
+Minecraft
+Half-Life
+Galaga
+The Last of Us
+Doom
+Chrono Trigger
+Grand Theft Auto
+Dark Souls
+Street Fighter II
+Super Mario Bros.
+Halo: Combat Evolved
+Castlevania
+Portal
+Inside
+Red Dead Redemption
+Final Fantasy
+Tetris
+Grim Fandango
+The Oregon Trail
+Super Metroid
+Warcraft
+League of Legends
+Burnout
+Fallout
+Undertale

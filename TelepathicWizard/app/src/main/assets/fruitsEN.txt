@@ -1,0 +1,62 @@
+#Fruits
+#null
+Apple
+Akee
+Avocado
+Banana
+Blackberry
+Boysenberry
+Crab apples
+Currant
+Cherry
+Chico fruit
+Cloudberry
+Coconut
+Cranberry
+Cucumber
+Date
+Dragonfruit
+Durian
+Elderberry
+Feijoa
+Fig
+Goji berry
+Grape
+Raisin
+Grapefruit
+Guava
+Huckleberry
+Jabuticaba
+Jackfruit
+Jambul
+Japanese plum
+Jostaberry
+Kiwifruit
+Lemon
+Lime
+Loquat
+Mango
+Marionberry
+Melon
+Watermelon
+Orange
+Blood orange
+Clementine
+Mandarine
+Papaya
+Passionfruit
+Peach
+Pear
+Persimmon
+Plantain
+Plum
+Prune
+Pineapple
+Pomegranate
+Pomelo
+Raspberry
+Redcurrant
+Satsuma
+Soursop
+Star fruit
+Strawberry

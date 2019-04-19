@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Trick"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/trick_1"
+            android:text="@string/app_title"
+            android:textSize="30sp"
+            style="@style/TextDesign"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/trick_2"
+            android:text="@string/app_title"
+            android:textSize="30sp"
+            style="@style/TextDesign"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/trick_3"
+            android:text="@string/app_title"
+            android:textSize="30sp"
+            style="@style/TextDesign"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/trick_4"
+            android:text="@string/app_title"
+            android:textSize="30sp"
+            style="@style/TextDesign"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/trick_5"
+            android:text="@string/app_title"
+            android:textSize="30sp"
+            style="@style/TextDesign"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/trick_6"
+            android:textSize="30sp"
+            android:text="@string/app_title"
+            style="@style/TextDesign"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/trick_7"
+            android:textSize="30sp"
+            style="@style/TextDesign"
+            android:text="@string/app_title"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/trick_8"
+            android:textSize="30sp"
+            style="@style/TextDesign"
+            android:text="@string/app_title"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/trick_9"
+            android:textSize="30sp"
+            style="@style/TextDesign"
+            android:text="@string/app_title"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/trick_10"
+            android:textSize="30sp"
+            style="@style/TextDesign"
+            android:text="@string/app_title"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="startShuffle"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        style="@style/ButtonDesign"
+        android:text="@string/shuffle"
+        android:textSize="42sp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="endTrick"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            style="@style/ButtonDesign"
+            android:text="@string/end_trick"
+            android:textSize="42sp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

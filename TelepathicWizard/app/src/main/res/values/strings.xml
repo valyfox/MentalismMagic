@@ -1,0 +1,46 @@
+<resources>
+    <!-- App info -->
+    <string name="app_name">Mentalism</string>
+    <string name="app_title">Mentalism Magic</string>
+
+    <!-- Buttons -->
+    <string name="start">Start</string>
+    <string name="guide">Guide</string>
+    <string name="back">Back</string>
+    <string name="next">Next</string>
+    <string name="lock_guide">Lock guide</string>
+    <string name="shuffle">Shuffle</string>
+    <string name="ok">OK</string>
+    <string name="login">Login</string>
+    <string name="practice">Practice</string>
+    <string name="end_trick">End</string>
+    <string name="unlock">Unlock</string>
+
+    <!-- Files -->
+    <string name="file_name_cities">citiesEN.txt</string>
+    <string name="file_name_fruits">fruitsEN.txt</string>
+    <string name="file_name_colours">coloursEN.txt</string>
+    <string name="file_name_videogames">videogames.txt</string>
+    <string name="file_name_celebrities">celebrities.txt</string>
+
+    <string name="file_alphabet">alphabet.txt</string>
+    <string name="file_product_id_null">null</string>
+
+    <!-- Guide management -->
+    <string name="guide_id">guide</string>
+    <string name="guide_is_hidden">Guide is now hidden</string>
+    <string name="guide_hide">Hide guide button</string>
+
+    <!-- Guide -->
+    <string name="guide_trick_1">Trick explained \n 1/2 \n\n Give the phone to the viewer and let him chose a word. If he wants he can shuffle as much as he wants</string>
+    <string name="guide_trick_2">Trick explained \n 2/2 \n\n Ask the viewer to read all the words out loud. You will be able to guess the word he chose</string>
+    <string name="guide_1">The secret \n 1/5 \n\n Each word is divided into two categories: straight words and curved words</string>
+    <string name="guide_2">The secret \n 2/5 \n\n Straight words are words whose first letter can be drawn using only straight lines</string>
+    <string name="guide_3">The secret \n 3/5 \n\n Curved words are words whose first letter contains at least one curved line</string>
+    <string name="guide_4">The secret \n 4/5 \n\n Note that each letter has to be considered as UPPERCASE in a standard font</string>
+    <string name="guide_5">The secret \n 5/5 \n\n The word chosen by the user is the only one in the list of its category</string>
+    <string name="guide_example_1">Example \n 1/2 \n\n Words in the straight line category are Tokyo, Manila, Instambul...</string>
+    <string name="guide_example_2">Example \n 2/2 \n\n Words in the curved line category are Beijing, Rome, Calcutta...</string>
+    <string name="guide_group_straight">Straight letters \n A, E, F, H, I, K, L, M, N, T, V, W, X, Y, Z</string>
+    <string name="guide_group_curved">Curved letters \n B, C, D, G, J, O, P, Q, R, S, U</string>
+</resources>
