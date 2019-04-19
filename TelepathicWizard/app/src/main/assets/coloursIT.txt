@@ -1,0 +1,62 @@
+#Colori
+#pack_colors
+Amaranto
+Ambra
+Ametista
+Albicocca
+Acquamarina
+Azzurro
+Beige
+Nero
+Blu
+Bronzo
+Marrone
+Carminio
+Rosso ciliegia
+Blu cobalto
+Rame
+Corallo
+Cremisi
+Ciano
+Sabbia del deserto
+Blu elettrico
+Smeraldo
+Oro
+Grigio
+Verde
+Arlecchino
+Indaco
+Giada
+Giungla verde
+Lavanda
+Limone
+Lime
+Magenta
+Rosa magenta
+Marrone
+Malva
+Blu navy
+Ocra
+Oliva
+Arancia
+Orchidea
+Pesca
+Pera
+Pervinca
+Rosa
+Prugna
+Blu di Prussia
+Viola
+Lampone
+Rosso
+Rosa
+Rubino
+Salmone
+Zaffiro
+Argento
+Turchese
+Blu oltremare
+Viola
+Viridis
+Bianco
+Giallo

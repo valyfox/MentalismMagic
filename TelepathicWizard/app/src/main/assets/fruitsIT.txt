@@ -1,0 +1,62 @@
+#Frutta
+#null
+Mela
+Blighia sapida
+Avocado
+Banana
+Mora
+Boysenberry
+Mele di granchio
+Ribes
+Ciliegia
+Frutto di chico
+Cloudberry
+Noce di cocco
+Mirtillo rosso
+Cetriolo
+Kiwano
+Frutto del drago
+Durian
+Sambuco
+Feijoa
+Maracuja'
+Bacca di goji
+Uva
+Uvetta
+Pompelmo
+Guaiava
+Mirtillo
+Jabuticaba
+Jackfruit
+Jambul
+Prugna giapponese
+Jostaberry
+Kiwi
+Limone
+Lime
+Nespolo
+Mango
+Marionberry
+Melone
+Anguria
+Arancia
+Arancia rossa
+Clementina
+Mandarino
+Papaia
+Frutto della passione
+Pesca
+Pera
+Cachi
+Piantaggine
+Prugna
+Lici
+Ananas
+Melograno
+Pomelo
+Lampone
+Ribes rosso
+Satsuma
+Guana'bana
+Carambola
+Fragola

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Bottoni -->
+    <string name="start">Inizia</string>
+    <string name="guide">Guida</string>
+    <string name="back">Indietro</string>
+    <string name="next">Avanti</string>
+    <string name="shuffle">Mischia</string>
+    <string name="ok">OK</string>
+    <string name="practice">Pratica</string>
+    <string name="end_trick">Fine</string>
+    <string name="unlock">Prova</string>
+
+    <!-- File -->
+    <string name="file_name_cities">citiesIT.txt</string>
+    <string name="file_name_fruits">fruitsIT.txt</string>
+    <string name="file_name_colours">coloursIT.txt</string>
+    <string name="file_name_celebrities">celebritiesIT.txt</string>
+    <string name="file_name_videogames">videogamesIT.txt</string>
+
+    <!-- Gestione guida -->
+    <string name="guide_is_hidden">La guida è nascosta</string>
+    <string name="guide_hide">Nascondi la guida</string>
+
+    <!-- Guida -->
+    <string name="guide_trick_1">1/11 \n\n Spiegazione del gioco \n\n Dai il telefono allo spettatore e fagli scegliere una parola. Se vuole può mischiare tutte le volte che vuole</string>
+    <string name="guide_trick_2">2/11 \n\n Spiegazione del gioco \n\n Chiedi allo spettatore di dire ad alta voce le parole nell\'ordine che preferisce. Sarai in grado di indovinare la parola scelta</string>
+    <string name="guide_1">3/11 \n\n Il segreto \n\n Le parole sono divise in due categorie: parole dritte e parole curve</string>
+    <string name="guide_2">4/11 \n\n Il segreto \n\n Le parole dritte sono parole la cui iniziale può essere scritta usando solo linee dritte</string>
+    <string name="guide_3">5/11 \n\n Il segreto \n\n Le parole curve sono parole la cui iniziale contiene almeno un tratto curvo</string>
+    <string name="guide_4">6/11 \n\n Il segreto \n\n Tieni a mente che l\'iniziale va considerata in MAIUSCOLO in un font normale</string>
+    <string name="guide_5">7/11 \n\n Il segreto \n\n Se lo spettatore sceglie una parola dritta l\'app mostrerà 9 parole curve e una sola dritta (quella scelta) e viceversa</string>
+    <string name="guide_example_1">8/11 \n\n Esempio \n\n Parole nella categoria dritta sono Tokyo, Manila, Instambul...</string>
+    <string name="guide_example_2">9/11 \n\n Esempio \n\n Parole nella categoria curva sono Beijing, Roma, Calcutta...</string>
+    <string name="guide_group_straight">10/11 \n\n Lettere dritte \n\n A, E, F, H, I, K, L, M, N, T, V, W, X, Y, Z</string>
+    <string name="guide_group_curved">11/11 \n\n Lettere curve \n\n B, C, D, G, J, O, P, Q, R, S, U</string>
+</resources>
