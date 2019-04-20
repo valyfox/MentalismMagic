@@ -8,6 +8,19 @@
     android:orientation="vertical"
     android:background="@color/colorPrimaryDark">
 
+    <Button
+        android:fontFamily="sans-serif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="language"
+        android:id="@+id/button_language"
+        android:onClick="changeLanguage"
+        android:layout_gravity="center"
+        android:layout_weight="0"
+        style="@style/ButtonDesign"
+        android:layout_marginTop="16dp"
+        />
+
     <TextSwitcher
         android:layout_width="wrap_content"
         android:layout_height="0dp"
