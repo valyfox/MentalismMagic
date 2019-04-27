@@ -33,7 +33,7 @@ Limone
 Lime
 Magenta
 Rosa magenta
-Marrone
+Avorio
 Malva
 Blu navy
 Ocra
@@ -43,10 +43,10 @@ Orchidea
 Pesca
 Pera
 Pervinca
-Rosa
+Avio
 Prugna
 Blu di Prussia
-Viola
+Violetto
 Lampone
 Rosso
 Rosa

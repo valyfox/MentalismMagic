@@ -1,7 +1,7 @@
 #Frutta
 #null
 Mela
-Blighia sapida
+Castagna
 Avocado
 Banana
 Mora
@@ -10,7 +10,7 @@ Mele di granchio
 Ribes
 Ciliegia
 Frutto di chico
-Cloudberry
+Cocomero
 Noce di cocco
 Mirtillo rosso
 Cetriolo
@@ -18,45 +18,45 @@ Kiwano
 Frutto del drago
 Durian
 Sambuco
-Feijoa
-Maracuja'
+Noci
+Platano
 Bacca di goji
 Uva
 Uvetta
 Pompelmo
 Guaiava
 Mirtillo
-Jabuticaba
-Jackfruit
-Jambul
-Prugna giapponese
-Jostaberry
+Pistacchi
+Tamarindo
+Giuggiole
+Prugna
+Gelso
 Kiwi
 Limone
 Lime
-Nespolo
+Nespola
 Mango
-Marionberry
+Fichi
 Melone
 Anguria
 Arancia
 Arancia rossa
 Clementina
 Mandarino
-Papaia
+Papaya
 Frutto della passione
 Pesca
 Pera
 Cachi
-Piantaggine
-Prugna
+Mandorla
+Frutti di bosco
 Lici
 Ananas
 Melograno
 Pomelo
 Lampone
 Ribes rosso
-Satsuma
+Datteri
 Guana'bana
 Carambola
 Fragola
