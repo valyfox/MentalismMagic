@@ -49,5 +49,7 @@
         android:onClick="guide"
         android:text="@string/guide"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="32dp"/>
+        android:layout_marginBottom="32dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"/>
 </RelativeLayout>
