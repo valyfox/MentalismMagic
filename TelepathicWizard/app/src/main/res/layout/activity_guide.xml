@@ -32,7 +32,7 @@
             android:layout_weight="1"
             style="@style/ButtonDesign"
             android:layout_marginStart="32dp"
-            android:layout_marginEnd="16dp"/>
+            android:layout_marginEnd="16dp" />
 
         <Button
             android:layout_width="wrap_content"
@@ -44,7 +44,8 @@
             android:layout_weight="1"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="32dp"
-            style="@style/ButtonDesign"/>
+            style="@style/ButtonDesign"
+/>
     </LinearLayout>
 
     <Button
