@@ -19,7 +19,8 @@
     <string name="file_name_fruits">fruitsEN.txt</string>
     <string name="file_name_colours">coloursEN.txt</string>
     <string name="file_name_celebrities">celebritiesEN.txt</string>
-    <string name="file_name_videogames">videogamesEN.txt</string>
+
+    <string name="file_name_videogames" translatable="false">videogames.txt</string>
 
     <string name="file_alphabet" translatable="false">alphabet.txt</string>
     <string name="file_product_id_null" translatable="false">null</string>

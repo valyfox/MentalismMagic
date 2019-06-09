@@ -2,8 +2,7 @@
 #null
 Tokyo
 New York
-Citta' del Messico
-San Paolo
+Messico
 Los Angeles
 Shanghai
 Mumbai
@@ -12,9 +11,7 @@ Osaka
 Londra
 Lagos
 Calcutta
-Buenos Aires
 Parigi
-Rio de Janeiro
 Karachi
 Delhi
 Manila
@@ -24,18 +21,11 @@ Roma
 Milano
 Napoli
 Atene
-Barcellona
 Boston
-Belgrado
-Berkeley
-Bristol
 Brighton
-Cali
-Chicago
 Dallas
 Manchester
 Miami
-Kyoto
 Lisbona
 Luxor
 Medellin
@@ -44,18 +34,9 @@ Minneapolis
 Montreal
 Nairobi
 New Orleans
-Citta' di Panama
 Rotterdam
-Salvador
-San Francisco
-Seattle
 Singapore
-St. Louis
-Surat
 Sydney
 Toronto
-Vancouver
-Washington DC
-Toyama
 Abu Dhabi
 Hong Kong
