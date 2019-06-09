@@ -7,6 +7,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/tv_item_word"
-        style="@style/TextDesign"
-        android:textSize="25sp"/>
+        style="@style/ItemTextDesign"
+        android:textSize="40sp"/>
 </FrameLayout>

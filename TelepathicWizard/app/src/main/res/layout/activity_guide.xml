@@ -23,7 +23,6 @@
         android:layout_marginBottom="16dp"
         android:layout_marginTop="16dp">
         <Button
-            android:fontFamily="sans-serif"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/back"
@@ -33,10 +32,9 @@
             android:layout_weight="1"
             style="@style/ButtonDesign"
             android:layout_marginStart="32dp"
-            android:layout_marginEnd="16dp"/>
+            android:layout_marginEnd="16dp" />
 
         <Button
-            android:fontFamily="sans-serif"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/next"
@@ -46,29 +44,29 @@
             android:layout_weight="1"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="32dp"
-            style="@style/ButtonDesign"/>
+            style="@style/ButtonDesign"
+
+/>
     </LinearLayout>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/practice"
-        android:fontFamily="sans-serif"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
         android:layout_gravity="center"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="8dp"
         android:onClick="startPractice"
         style="@style/ButtonDesign"/>
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:layout_marginBottom="32dp"
         android:layout_gravity="center_horizontal">
         <TextView
-            android:fontFamily="sans-serif"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/guide_hide"
@@ -83,6 +81,7 @@
             android:onClick="checkHideGuideButton"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="32dp"
+            android:layout_marginBottom="8dp"
             android:id="@+id/switch_guide_button"/>
     </LinearLayout>
 

@@ -5,9 +5,8 @@
     android:padding="16dp">
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/border"
+        android:layout_height="match_parent"
         android:id="@+id/tv_item_pack"
-        style="@style/TextDesign"
-        android:textSize="20sp"/>
+        style="@style/ItemTextDesign"
+        android:textSize="35sp"/>
 </FrameLayout>
