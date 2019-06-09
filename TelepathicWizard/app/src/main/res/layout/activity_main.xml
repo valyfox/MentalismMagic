@@ -23,7 +23,7 @@
             android:layout_marginBottom="64dp"
             android:text="@string/app_title"
             android:textAlignment="center"
-            android:textSize="42sp" />
+            android:textSize="62sp" />
 
         <Button
             style="@style/ButtonDesign"
@@ -39,7 +39,6 @@
 
     <Button
         style="@style/ButtonDesign"
-        android:fontFamily="sans-serif"
         android:id="@+id/button_guide"
         android:layout_width="wrap_content"
         android:layout_centerHorizontal="true"
@@ -49,7 +48,8 @@
         android:layout_marginEnd="16dp"
         android:onClick="guide"
         android:text="@string/guide"
-        android:textSize="15sp"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="16dp"/>
+        android:layout_marginBottom="32dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"/>
 </RelativeLayout>

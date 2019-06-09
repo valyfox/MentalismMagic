@@ -22,6 +22,7 @@ import tk.valyfox.telepathicwizard.word.ElementsManager;
 public class Guide extends AppCompatActivity {
 
     TextSwitcher textSwitcher;
+    private Toast mToast = null;
 
     private int guideStringsIds[] = {R.string.guide_trick_1, R.string.guide_trick_2,
             R.string.guide_1, R.string.guide_2, R.string.guide_3, R.string.guide_4, R.string.guide_5,
@@ -88,7 +89,9 @@ public class Guide extends AppCompatActivity {
         SharedPreferences.Editor editor = sharedPref.edit();
         editor.putBoolean(getString(R.string.guide_id), true);
         editor.apply();
-        Toast.makeText(getApplicationContext(), R.string.guide_is_hidden, Toast.LENGTH_SHORT).show();
+        if(mToast != null) mToast.cancel();
+        mToast = Toast.makeText(getApplicationContext(), R.string.guide_is_hidden, Toast.LENGTH_SHORT);
+        mToast.show();
     }
 
 

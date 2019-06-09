@@ -9,15 +9,33 @@
     </style>
 
     <style name="TextDesign" parent="@android:style/TextAppearance">
-        <item name="android:fontFamily">@font/automatica</item>
+        <item name="android:fontFamily">@font/offcurve</item>
         <item name="android:textColor">@color/contrastLight</item>
         <item name="android:gravity">center</item>
+    </style>
+
+    <style name="TrickTextDesign" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">@font/offcurve</item>
+        <item name="android:textColor">@color/contrastLight</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/app_title</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+    </style>
+
+    <style name="ItemTextDesign" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">@font/offcurve</item>
+        <item name="android:textColor">@color/contrastLight</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/button_selector</item>
+        <item name="android:text">@string/app_title</item>
     </style>
 
     <style name="ButtonDesign" parent="Base.Widget.AppCompat.Button">
         <item name="android:background">@drawable/button_selector</item>
         <item name="android:textColor">@color/contrastLight</item>
-        <item name="android:fontFamily">@font/automatica</item>
-        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/offcurve</item>
+        <item name="android:textSize">30sp</item>
     </style>
 </resources>
