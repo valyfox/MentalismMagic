@@ -6,19 +6,15 @@ Mexico City
 Sao Paolo
 Los Angeles
 Shanghai
-Mumbai
 Seoul
 Osaka
 London
-Lagos
 Calcutta
-Buenos Aires
 Paris
 Rio de Janeiro
-Karachi
 Delhi
 Manila
-Instambul
+Istanbul
 Beijing
 Rome
 Milan
@@ -26,36 +22,21 @@ Naples
 Athens
 Barcelona
 Boston
-Belgrade
-Berkeley
 Bristol
 Brighton
-Cali
 Chicago
-Dallas
 Manchester
 Miami
-Kyoto
 Lisbon
-Luxor
 Medellin
 Melbourne
 Minneapolis
 Montreal
 Nairobi
-New Orleans
-Panama city
 Rotterdam
 Salvador
-San francisco
-Seattle
+San Francisco
 Singapore
-St. Louis
-Surat
 Sydney
-Toronto
-Vancouver
-Washington DC
-Toyama
 Abu Dhabi
 Hong Kong

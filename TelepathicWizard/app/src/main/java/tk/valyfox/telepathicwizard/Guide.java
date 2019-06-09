@@ -16,6 +16,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.ViewSwitcher;
 
+import tk.valyfox.telepathicwizard.language.LocaleHelper;
 import tk.valyfox.telepathicwizard.word.ElementsManager;
 
 public class Guide extends AppCompatActivity {
@@ -127,5 +128,10 @@ public class Guide extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(), ChooseWord.class);
         intent.putExtra(ElementsManager.FILE_NAME, getString(R.string.file_alphabet));
         startActivity(intent);
+    }
+
+    public void changeLanguage(View view) {
+        LocaleHelper.setLocale(getApplicationContext(), "it");
+        recreate();
     }
 }

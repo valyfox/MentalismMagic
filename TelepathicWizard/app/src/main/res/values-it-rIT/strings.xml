@@ -16,7 +16,6 @@
     <string name="file_name_fruits">fruitsIT.txt</string>
     <string name="file_name_colours">coloursIT.txt</string>
     <string name="file_name_celebrities">celebritiesIT.txt</string>
-    <string name="file_name_videogames">videogamesIT.txt</string>
 
     <!-- Gestione guida -->
     <string name="guide_is_hidden">La guida è nascosta</string>

@@ -3,41 +3,27 @@
 Amaranth
 Amber
 Amethyst
-Apricot
 Aquamarine
-Azure
 Beige
 Black
 Blue
 Bronze
 Brown
-Carmine
-Cerise
 Cobalt blue
 Copper
 Coral
-Crimson
 Cyan
-Desert sand
-Electric blue
 Emerald
 Gold
 Gray
 Green
-Harlequin
-Indigo
-Jade
-Jungle green
 Lavender
 Lemon
 Lime
 Magenta
-Magenta rose
-Maroon
+Violet
 Mauve
 Navy blue
-Ocher
-Olive
 Orange
 Orchid
 Peach
@@ -45,18 +31,12 @@ Pear
 Periwinkle
 Pink
 Plum
-Prussian blue
 Purple
-Raspberry
 Red
 Rose
-Ruby
 Salmon
 Sapphire
 Silver
-Turquoise
-Ultramarine
-Violet
-Viridian
+Azure
 White
 Yellow

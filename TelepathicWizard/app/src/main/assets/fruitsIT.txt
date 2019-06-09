@@ -5,30 +5,18 @@ Castagna
 Avocado
 Banana
 Mora
-Boysenberry
-Mele di granchio
 Ribes
 Ciliegia
-Frutto di chico
 Cocomero
-Noce di cocco
-Mirtillo rosso
-Cetriolo
-Kiwano
-Frutto del drago
 Durian
 Sambuco
 Noci
 Platano
-Bacca di goji
 Uva
-Uvetta
 Pompelmo
 Guaiava
 Mirtillo
 Pistacchi
-Tamarindo
-Giuggiole
 Prugna
 Gelso
 Kiwi
@@ -40,23 +28,15 @@ Fichi
 Melone
 Anguria
 Arancia
-Arancia rossa
 Clementina
 Mandarino
 Papaya
-Frutto della passione
 Pesca
 Pera
 Cachi
 Mandorla
-Frutti di bosco
-Lici
 Ananas
 Melograno
-Pomelo
 Lampone
-Ribes rosso
-Datteri
-Guana'bana
-Carambola
 Fragola
+Guana'bana
