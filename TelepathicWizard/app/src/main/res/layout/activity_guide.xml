@@ -8,6 +8,7 @@
     android:orientation="vertical"
     android:background="@color/colorPrimaryDark">
 
+    <!--
     <Button
         android:fontFamily="sans-serif"
         android:layout_width="wrap_content"
@@ -20,6 +21,7 @@
         style="@style/ButtonDesign"
         android:layout_marginTop="16dp"
         />
+        -->
 
     <TextSwitcher
         android:layout_width="wrap_content"
