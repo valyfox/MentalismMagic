@@ -1,5 +1,4 @@
 #Fruits
-#null
 Apple
 Avocado
 Banana

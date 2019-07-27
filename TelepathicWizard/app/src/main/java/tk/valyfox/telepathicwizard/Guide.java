@@ -64,7 +64,6 @@ public class Guide extends AppCompatActivity {
     }
 
     private void checkGuideButton() {
-
         mSwitch.setChecked(sharedPref.getBoolean(getString(R.string.guide_id), false));
     }
 
@@ -96,13 +95,11 @@ public class Guide extends AppCompatActivity {
 
 
     public void changeText(View view) {
-        //textSwitcher.animate();
         Animation in = AnimationUtils.loadAnimation(this, R.anim.right_in);
         textSwitcher.setInAnimation(in);
         Animation out = AnimationUtils.loadAnimation(this, R.anim.left_out);
         textSwitcher.setOutAnimation(out);
         textSwitcher.setText(getText(guideStringsIds[++index]));
-
 
         back.setEnabled(true);
         if(index == guideStringsIds.length - 1) {
@@ -111,7 +108,6 @@ public class Guide extends AppCompatActivity {
     }
 
     public void changeTextBackward(View view) {
-        //textSwitcher.animate();
         Animation in = AnimationUtils.loadAnimation(this, R.anim.left_in);
         textSwitcher.setInAnimation(in);
         Animation out = AnimationUtils.loadAnimation(this, R.anim.right_out);
@@ -128,10 +124,5 @@ public class Guide extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(), ChooseWord.class);
         intent.putExtra(ElementsManager.FILE_NAME, getString(R.string.file_alphabet));
         startActivity(intent);
-    }
-
-    public void changeLanguage(View view) {
-        LocaleHelper.setLocale(getApplicationContext(), "it");
-        recreate();
     }
 }

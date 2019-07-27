@@ -1,5 +1,4 @@
 #Celebrita'
-#pack_celebrities
 Marilyn Monroe
 Abraham Lincoln
 Brad Pitt

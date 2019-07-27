@@ -12,7 +12,6 @@
     <string name="ok">OK</string>
     <string name="practice">Practice</string>
     <string name="end_trick">End</string>
-    <string name="unlock">Try</string>
 
     <!-- Files -->
     <string name="file_name_cities">citiesEN.txt</string>

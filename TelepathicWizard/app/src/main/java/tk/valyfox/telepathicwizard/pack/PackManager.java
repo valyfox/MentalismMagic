@@ -28,16 +28,11 @@ public class PackManager {
 
                 InputStreamReader inputreader = new InputStreamReader(inputStream);
                 BufferedReader buffreader = new BufferedReader(inputreader);
-                String packName, packId;
+                String packName;
 
                packName = buffreader.readLine();
-               packId = buffreader.readLine();
 
-               if(packId.substring(1).equals(context.getString(R.string.file_product_id_null))) {
-                   packId = null;
-               }
-
-               Pack p = new Pack(fileName, packName, packId);
+               Pack p = new Pack(fileName, packName);
                packs.add(p);
 
                 inputreader.close();

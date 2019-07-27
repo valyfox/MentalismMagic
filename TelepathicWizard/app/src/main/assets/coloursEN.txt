@@ -1,5 +1,4 @@
 #Colours
-#pack_colors
 Amaranth
 Amber
 Amethyst

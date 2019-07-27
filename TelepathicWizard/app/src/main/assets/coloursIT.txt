@@ -1,5 +1,4 @@
 #Colori
-#pack_colors
 Amaranto
 Ambra
 Albicocca

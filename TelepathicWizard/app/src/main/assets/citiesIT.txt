@@ -1,5 +1,4 @@
 #Citta'
-#null
 Tokyo
 New York
 Messico

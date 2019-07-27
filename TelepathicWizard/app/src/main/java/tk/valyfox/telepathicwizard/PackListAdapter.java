@@ -1,7 +1,6 @@
 package tk.valyfox.telepathicwizard;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.util.TypedValue;
 import android.view.LayoutInflater;
@@ -44,9 +43,9 @@ public class PackListAdapter extends RecyclerView.Adapter<PackListAdapter.PackVi
     }
 
     @Override
-    public void onBindViewHolder(@NonNull PackViewHolder packViewHolder, int position) {
+    public void onBindViewHolder(PackViewHolder packViewHolder, int position) {
         Pack elem = mElements.get(position);
-            packViewHolder.bind(elem.name, elem.locked);
+            packViewHolder.bind(elem.name);
 
     }
 
@@ -68,18 +67,9 @@ public class PackListAdapter extends RecyclerView.Adapter<PackListAdapter.PackVi
             itemView.setOnClickListener(this);
         }
 
-        void bind(String text, boolean locked) {
-            String unlockText = context.getString(R.string.unlock);
-            if(locked) {
-                itemTextView.setText(unlockText + " " +text);
-                itemTextView.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 30);
-            } else {
-                itemTextView.setText(text);
-                itemTextView.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 42);
-            }
-
-
-
+        void bind(String text) {
+            itemTextView.setText(text);
+            itemTextView.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 42);
         }
 
         @Override

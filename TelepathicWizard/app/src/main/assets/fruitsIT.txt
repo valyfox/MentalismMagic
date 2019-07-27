@@ -1,5 +1,4 @@
 #Frutta
-#null
 Mela
 Castagna
 Avocado
