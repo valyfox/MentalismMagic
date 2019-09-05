@@ -1,6 +1,8 @@
 package tk.valyfox.telepathicwizard;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -18,6 +20,8 @@ public class Trick extends AppCompatActivity {
 
     Element selectedElement;
 
+    SharedPreferences sharedPref;
+
     TextView views[];
     int ids[] = {R.id.trick_1, R.id.trick_2, R.id.trick_3, R.id.trick_4, R.id.trick_5, R.id.trick_6, R.id.trick_7, R.id.trick_8, R.id.trick_9, R.id.trick_10};
 
@@ -25,6 +29,8 @@ public class Trick extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_trick);
+
+        sharedPref = getApplicationContext().getSharedPreferences(getString(R.string.guide_id), Context.MODE_PRIVATE);
 
         views = new TextView[ids.length];
         for(int i = 0; i < ids.length; i++) {
@@ -57,8 +63,10 @@ public class Trick extends AppCompatActivity {
 
         int n = rand.nextInt(ids.length);
         views[n].setText(selectedElement.name);
-        views[n].setBackgroundColor(getResources().getColor(R.color.colorAccent));
-        views[n].setTextColor(getResources().getColor(R.color.contrastDark));
+        if(sharedPref.getBoolean(getString(R.string.highlight_id), true)) {
+            views[n].setBackgroundColor(getResources().getColor(R.color.colorAccent));
+            views[n].setTextColor(getResources().getColor(R.color.contrastDark));
+        }
     }
 
     public void startShuffle(View view) {

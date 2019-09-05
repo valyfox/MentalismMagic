@@ -24,10 +24,18 @@
     <string name="file_alphabet" translatable="false">alphabet.txt</string>
     <string name="file_product_id_null" translatable="false">null</string>
 
-    <!-- Guide management -->
-    <string name="guide_id" translatable="false">guide</string>
-    <string name="guide_is_hidden">Guide is now hidden</string>
-    <string name="guide_hide">Hide guide button</string>
+    <!-- Menu management -->
+    <string name="guide_id" translatable="false">menu</string>
+    <string name="guide_is_hidden">Menu is now hidden</string>
+    <string name="guide_hide">Hide menu button</string>
+
+    <!-- Highlight management -->
+    <string name="highlight_id" translatable="false">highlight</string>
+
+    <!-- Menu' -->
+    <string name="menu_title">Magician menu</string>
+    <string name="menu_button">Menu</string>
+    <string name="highlight">Highlight selected word</string>
 
     <!-- Guide -->
     <string name="guide_trick_1">1/11 \n\n Trick explained \n\n Give the phone to the viewer and let him chose a word. If he wants he can shuffle as much as he wants</string>

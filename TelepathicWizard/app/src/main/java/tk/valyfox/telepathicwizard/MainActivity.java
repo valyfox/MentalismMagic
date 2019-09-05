@@ -13,7 +13,7 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
 
 
-    Button guideButton;
+    Button menuButton;
 
     @Override
     protected void onResume()
@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        guideButton = findViewById(R.id.button_guide);
+        menuButton = findViewById(R.id.button_menu);
 
         checkGuideVisible();
     }
@@ -35,14 +35,14 @@ public class MainActivity extends AppCompatActivity {
     private void checkGuideVisible() {
         SharedPreferences sharedPref = getApplicationContext().getSharedPreferences(getString(R.string.guide_id), Context.MODE_PRIVATE);
         if(sharedPref.getBoolean(getString(R.string.guide_id), false)) {
-            guideButton.setText("");
-            guideButton.setBackgroundColor(Color.TRANSPARENT);
+            menuButton.setText("");
+            menuButton.setBackgroundColor(Color.TRANSPARENT);
         } else {
-            guideButton.setText(R.string.guide);
+            menuButton.setText(R.string.menu_button);
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-                guideButton.setBackground(getDrawable(R.drawable.button_selector));
+                menuButton.setBackground(getDrawable(R.drawable.button_selector));
             } else {
-                guideButton.setBackgroundColor(getResources().getColor(R.color.colorPrimary));
+                menuButton.setBackgroundColor(getResources().getColor(R.color.colorPrimary));
             }
         }
     }
@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void guide(View view) {
-        Intent intent = new Intent(getApplicationContext(), Guide.class);
+        Intent intent = new Intent(getApplicationContext(), MenuActivity.class);
         startActivity(intent);
     }
 }

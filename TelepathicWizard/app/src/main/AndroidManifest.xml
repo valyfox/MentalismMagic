@@ -14,15 +14,22 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".PackSelection"
+        <activity android:name=".MenuActivity"
             android:screenOrientation="portrait"/>
-        <activity android:name=".Guide"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".Trick"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".ChooseWord"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".MainActivity"
+        <activity
+            android:name=".PackSelection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Guide"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Trick"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChooseWord"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
