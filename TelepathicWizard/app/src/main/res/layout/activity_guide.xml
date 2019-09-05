@@ -56,33 +56,8 @@
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
         android:layout_gravity="center"
-        android:layout_marginBottom="8dp"
-        android:onClick="startPractice"
-        style="@style/ButtonDesign"/>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
         android:layout_marginBottom="32dp"
-        android:layout_gravity="center_horizontal">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/guide_hide"
-            style="@style/TextDesign"
-            android:textSize="20sp"
-            android:layout_marginStart="32dp"
-            android:layout_marginEnd="16dp"
-            android:layout_gravity="center" />
-        <Switch
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:onClick="checkHideGuideButton"
-            android:layout_marginStart="16dp"
-            android:layout_marginEnd="32dp"
-            android:layout_marginBottom="8dp"
-            android:id="@+id/switch_guide_button"/>
-    </LinearLayout>
+        android:onClick="startPractice"
+        style="@style/ButtonDesign" />
 
 </LinearLayout>

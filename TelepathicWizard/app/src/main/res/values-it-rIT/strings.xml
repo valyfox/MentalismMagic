@@ -10,6 +10,9 @@
     <string name="practice">Pratica</string>
     <string name="end_trick">Fine</string>
 
+    <!-- messaggi -->
+    <string name="back_again_message">Premi di nuovo indietro per uscire</string>
+
     <!-- File -->
     <string name="file_name_cities">citiesIT.txt</string>
     <string name="file_name_fruits">fruitsIT.txt</string>
@@ -17,8 +20,13 @@
     <string name="file_name_celebrities">celebritiesIT.txt</string>
 
     <!-- Gestione guida -->
-    <string name="guide_is_hidden">La guida è nascosta</string>
-    <string name="guide_hide">Nascondi la guida</string>
+    <string name="guide_is_hidden">Il menù è nascosto</string>
+    <string name="guide_hide">Nascondi il menu\'</string>
+
+    <!-- Menu' -->
+    <string name="menu_title">Menu\' del mago</string>
+    <string name="menu_button">Menu\'</string>
+    <string name="highlight">Evidenzia parola scelta</string>
 
     <!-- Guida -->
     <string name="guide_trick_1">1/11 \n\n Spiegazione del gioco \n\n Dai il telefono allo spettatore e fagli scegliere una parola. Se vuole può mischiare tutte le volte che vuole</string>

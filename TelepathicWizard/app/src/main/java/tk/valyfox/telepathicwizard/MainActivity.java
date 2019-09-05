@@ -9,17 +9,40 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
 
-    Button guideButton;
+    Button menuButton;
+
+    boolean backPressed;
+
+    @Override
+    public void onBackPressed() {
+        //super.onBackPressed();
+
+        if(!backPressed) {
+            Toast.makeText(this, R.string.back_again_message, Toast.LENGTH_SHORT).show();
+            backPressed = true;
+            return;
+        }
+
+        Intent intent = new Intent(Intent.ACTION_MAIN);
+        intent.addCategory(Intent.CATEGORY_HOME);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        startActivity(intent);
+    }
+
+
 
     @Override
     protected void onResume()
     {
         super.onResume();
         checkGuideVisible();
+
+        backPressed = false;
     }
 
     @Override
@@ -27,7 +50,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        guideButton = findViewById(R.id.button_guide);
+        menuButton = findViewById(R.id.button_menu);
+
+        backPressed = false;
 
         checkGuideVisible();
     }
@@ -35,14 +60,14 @@ public class MainActivity extends AppCompatActivity {
     private void checkGuideVisible() {
         SharedPreferences sharedPref = getApplicationContext().getSharedPreferences(getString(R.string.guide_id), Context.MODE_PRIVATE);
         if(sharedPref.getBoolean(getString(R.string.guide_id), false)) {
-            guideButton.setText("");
-            guideButton.setBackgroundColor(Color.TRANSPARENT);
+            menuButton.setText("");
+            menuButton.setBackgroundColor(Color.TRANSPARENT);
         } else {
-            guideButton.setText(R.string.guide);
+            menuButton.setText(R.string.menu_button);
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-                guideButton.setBackground(getDrawable(R.drawable.button_selector));
+                menuButton.setBackground(getDrawable(R.drawable.button_selector));
             } else {
-                guideButton.setBackgroundColor(getResources().getColor(R.color.colorPrimary));
+                menuButton.setBackgroundColor(getResources().getColor(R.color.colorPrimary));
             }
         }
     }
@@ -53,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void guide(View view) {
-        Intent intent = new Intent(getApplicationContext(), Guide.class);
+        Intent intent = new Intent(getApplicationContext(), MenuActivity.class);
         startActivity(intent);
     }
 }

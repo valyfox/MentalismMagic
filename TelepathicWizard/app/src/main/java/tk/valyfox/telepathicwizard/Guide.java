@@ -22,7 +22,6 @@ import tk.valyfox.telepathicwizard.word.ElementsManager;
 public class Guide extends AppCompatActivity {
 
     TextSwitcher textSwitcher;
-    private Toast mToast = null;
 
     private int guideStringsIds[] = {R.string.guide_trick_1, R.string.guide_trick_2,
             R.string.guide_1, R.string.guide_2, R.string.guide_3, R.string.guide_4, R.string.guide_5,
@@ -30,8 +29,6 @@ public class Guide extends AppCompatActivity {
             R.string.guide_group_straight, R.string.guide_group_curved};
     int index = 0;
     Button next, back;
-    Switch mSwitch;
-    SharedPreferences sharedPref;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,43 +53,7 @@ public class Guide extends AppCompatActivity {
 
         back.setEnabled(false);
         textSwitcher.setCurrentText(getText(guideStringsIds[index]));
-
-        mSwitch = findViewById(R.id.switch_guide_button);
-        sharedPref = getApplicationContext().getSharedPreferences(getString(R.string.guide_id), Context.MODE_PRIVATE);
-
-        checkGuideButton();
     }
-
-    private void checkGuideButton() {
-        mSwitch.setChecked(sharedPref.getBoolean(getString(R.string.guide_id), false));
-    }
-
-    public void checkHideGuideButton(View view) {
-        if(mSwitch.isChecked()) {
-            hideGuideButton();
-        } else {
-            showGuideButton();
-        }
-        checkGuideButton();
-    }
-
-
-
-    private void showGuideButton() {
-        SharedPreferences.Editor editor = sharedPref.edit();
-        editor.putBoolean(getString(R.string.guide_id), false);
-        editor.apply();
-    }
-
-    private void hideGuideButton() {
-        SharedPreferences.Editor editor = sharedPref.edit();
-        editor.putBoolean(getString(R.string.guide_id), true);
-        editor.apply();
-        if(mToast != null) mToast.cancel();
-        mToast = Toast.makeText(getApplicationContext(), R.string.guide_is_hidden, Toast.LENGTH_SHORT);
-        mToast.show();
-    }
-
 
     public void changeText(View view) {
         Animation in = AnimationUtils.loadAnimation(this, R.anim.right_in);
