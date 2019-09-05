@@ -16,6 +16,14 @@ public class MenuActivity extends AppCompatActivity {
     SharedPreferences sharedPref;
 
     @Override
+    protected void onResume() {
+        super.onResume();
+
+        checkGuideButton();
+        updateHighlight();
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);

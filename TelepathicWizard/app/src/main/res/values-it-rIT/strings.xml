@@ -10,6 +10,9 @@
     <string name="practice">Pratica</string>
     <string name="end_trick">Fine</string>
 
+    <!-- messaggi -->
+    <string name="back_again_message">Premi di nuovo indietro per uscire</string>
+
     <!-- File -->
     <string name="file_name_cities">citiesIT.txt</string>
     <string name="file_name_fruits">fruitsIT.txt</string>

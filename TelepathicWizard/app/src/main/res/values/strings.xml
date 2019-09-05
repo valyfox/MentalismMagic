@@ -3,6 +3,9 @@
     <string name="app_name" translatable="false">Mentalism</string>
     <string name="app_title" translatable="false">Mentalism Magic</string>
 
+    <!-- messages -->
+    <string name="back_again_message">Press back again to exit</string>
+
     <!-- Buttons -->
     <string name="start">Start</string>
     <string name="guide">Guide</string>

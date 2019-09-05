@@ -9,17 +9,40 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
 
     Button menuButton;
 
+    boolean backPressed;
+
+    @Override
+    public void onBackPressed() {
+        //super.onBackPressed();
+
+        if(!backPressed) {
+            Toast.makeText(this, R.string.back_again_message, Toast.LENGTH_SHORT).show();
+            backPressed = true;
+            return;
+        }
+
+        Intent intent = new Intent(Intent.ACTION_MAIN);
+        intent.addCategory(Intent.CATEGORY_HOME);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        startActivity(intent);
+    }
+
+
+
     @Override
     protected void onResume()
     {
         super.onResume();
         checkGuideVisible();
+
+        backPressed = false;
     }
 
     @Override
@@ -28,6 +51,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         menuButton = findViewById(R.id.button_menu);
+
+        backPressed = false;
 
         checkGuideVisible();
     }
