@@ -4,8 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="tk.valyfox.telepathicwizard">
 
-    <dist:module dist:instant="true" />
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_icon"
@@ -14,8 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".MenuActivity"
-            android:screenOrientation="portrait"/>
+        <activity android:name=".customiser.CategoryEditor"></activity>
+        <activity android:name=".customiser.CustomCategorySelector" />
+        <activity
+            android:name=".MenuActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".PackSelection"
             android:screenOrientation="portrait" />
@@ -38,5 +39,7 @@
             </intent-filter>
         </activity>
     </application>
+
+    <dist:module dist:instant="true" />
 
 </manifest>

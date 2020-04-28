@@ -9,6 +9,8 @@ import android.view.View;
 import android.widget.Switch;
 import android.widget.Toast;
 
+import tk.valyfox.telepathicwizard.customiser.CategoryEditor;
+
 public class MenuActivity extends AppCompatActivity {
 
     private Toast mToast = null;
@@ -85,6 +87,12 @@ public class MenuActivity extends AppCompatActivity {
     //goto guide
     public void guide(View view) {
         Intent intent = new Intent(getApplicationContext(), Guide.class);
+        startActivity(intent);
+    }
+
+    public void goToCustomWords(View view) {
+        //TODO go to custom category selector
+        Intent intent = new Intent(getApplicationContext(), CategoryEditor.class);
         startActivity(intent);
     }
 }
